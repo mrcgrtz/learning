@@ -1,0 +1,20 @@
+root = true
+
+[*]
+# indent using tabs
+indent_style = space
+indent_size = 6
+tab_width = 6
+# Unix-style newlines with a newline ending every file
+end_of_line = lf
+insert_final_newline = true
+max_line_length = 80
+# use UTF-8 without BOM
+charset = utf-8
+# remove any trailing whitespace
+trim_trailing_whitespace = true
+#
+
+[*.md]
+# do not remove trailing spaces for line-breaks
+trim_trailing_whitespace = false
