@@ -1,19 +1,27 @@
 # learning-fortran
 
-> You can measure a programmer's perspective by noting his attitude on the continuing vitality of FORTRAN. - Alan Perlis
+> You can measure a programmer's perspective by noting his attitude on the continuing vitality of Fortran. - Alan Perlis
 
 Everyone is doing fucking ES2017, Go, and other fancy shit.
-But this is just me learning [FORTRAN](https://en.wikipedia.org/wiki/Fortran).
+But this is just me learning [Fortran](https://en.wikipedia.org/wiki/Fortran).
 Move along, dude. :wave:
 
 ## Required stuff
 
-You need [GCC](https://gcc.gnu.org/) for compiling FORTRAN programs.
+You need [GCC](https://gcc.gnu.org/) for compiling Fortran programs.
 
 On macOS with [Homebrew](https://brew.sh/) run:
 
 ```bash
 $ brew install gcc
+```
+
+## Usage
+
+To compile the source files using the GNU Fortran compiler run:
+
+```bash
+$ gfortran -o bin/<file>.out src/<file>.f
 ```
 
 ## Related Atom packages
