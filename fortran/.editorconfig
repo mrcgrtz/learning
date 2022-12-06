@@ -1,0 +1,8 @@
+[*.f]
+# indent using 6 spaces
+indent_size = 6
+tab_width = 6
+# set the Standard Fixed Format for FORTRAN
+max_line_length = 72
+# use UTF-8 without BOM (but in fact just use the ASCII subset)
+charset = utf-8
