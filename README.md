@@ -1,6 +1,7 @@
 # Learning
 
 * [Fortran](https://github.com/mrcgrtz/learning/tree/main/fortran)
+* [Rust](https://github.com/mrcgrtz/learning/tree/main/rust)
 
 ## License
 
